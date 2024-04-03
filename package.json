@@ -1,0 +1,21 @@
+{
+  "name": "entrainement-perso",
+  "version": "1.0.0",
+  "description": "Entrainement",
+  "main": "appjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Seb",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "env": "^0.0.2",
+    "eslint": "^8.57.0",
+    "express": "^4.19.2",
+    "sequelize": "^6.37.2"
+  },
+  "keywords": []
+}
