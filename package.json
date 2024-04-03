@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
     "start": "nodemon app.js",
-    "build": "npx ejs-cli /views/**/*.ejs /public --extension .html"
+    "build": "ejs-cli ./views/**/*.ejs ./public/html --extension .html"
   },
   "author": "Seb",
   "license": "ISC",
