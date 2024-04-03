@@ -5,7 +5,8 @@
   "main": "appjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "build": "ejs-cli ./views/**/*.ejs ./public --extension .html"
   },
   "author": "Seb",
   "license": "ISC",
@@ -17,5 +18,8 @@
     "express": "^4.19.2",
     "sequelize": "^6.37.2"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "ejs-cli": "^2.2.3"
+  }
 }
