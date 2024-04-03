@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "start": "node app.js",
-    "build": "npx ejs-cli views/**/*.ejs public --extension .html"
+    "start": "nodemon app.js",
+    "build": "npx ejs-cli /views/**/*.ejs /public --extension .html"
   },
   "author": "Seb",
   "license": "ISC",
@@ -19,5 +19,8 @@
     "express": "^4.19.2",
     "sequelize": "^6.37.2"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
 }
