@@ -1,4 +1,5 @@
-{  "name": "entrainement-perso",
+{
+  "name": "entrainement-perso",
   "version": "1.0.0",
   "description": "Entrainement",
   "main": "app.js",
@@ -7,7 +8,6 @@
     "dev": "nodemon app.js",
     "start": "nodemon app.js",
     "build": "find views/ -name \"*.ejs\" -exec node_modules/.bin/ejs-cli {} -o public/ --extension .html \\;"
-
   },
   "author": "Seb",
   "license": "ISC",
