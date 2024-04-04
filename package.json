@@ -1,5 +1,4 @@
-{
-  "name": "entrainement-perso",
+{  "name": "entrainement-perso",
   "version": "1.0.0",
   "description": "Entrainement",
   "main": "app.js",
