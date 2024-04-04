@@ -1,7 +1,0 @@
-defaults:
-  - scope:
-      path: ""
-      type: "html"
-    values:
-      layout: "default"
-      permalink: "/:path/
