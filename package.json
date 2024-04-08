@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
     "start": "nodemon app.js",
-    "build": "find views/ -name \"*.ejs\" -exec node_modules/.bin/ejs-cli {} -o public/ --extension .html \\;"
+    "build": "find views/ -name '*.ejs' -exec node_modules/.bin/ejs-cli {} -o public/ --extension .html \\;"
   },
   "author": "Seb",
   "license": "ISC",
